@@ -10,7 +10,7 @@ The driver board is compatible with at least the Solum 2.9" and 1.54" displays. 
 
 The pcb is designed so you can almost make a straight connection to a ESP32 Lolin board. No other components are needed to make it work. On ESP32, you can use the GxEPD2 library to use the display. Examples are in this repository.
 
-But the ready make driver pcb on Tindie: https://www.tindie.com/products/electronics-by-nic/display-driver-board-for-epaper-shelf-label/
+Buy the ready make driver pcb on Tindie: https://www.tindie.com/products/electronics-by-nic/display-driver-board-for-epaper-shelf-label/
 There, I also sell the compatible displays: [2.9" displays](https://www.tindie.com/products/electronics-by-nic/5-pcs-29-epaper-tags-for-openepaperlink/) and [1.54" displays](https://www.tindie.com/products/electronics-by-nic/5-pcs-154-epaper-tags-for-openepaperlink/).
 
 | Driver | ESP32 |
