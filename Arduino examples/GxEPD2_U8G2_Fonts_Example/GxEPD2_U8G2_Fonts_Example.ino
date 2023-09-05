@@ -3,6 +3,8 @@
 // convert Truetype font to Adafruit GFX: https://rop.nl/truetype2gfx/
 #include "calibrib25pt7b.h"
 
+// More info about the GxEPD library: https://github.com/ZinggJM/GxEPD2
+
 GxEPD2_3C<GxEPD2_290_C90c, GxEPD2_290_C90c::HEIGHT> display(GxEPD2_290_C90c(/*CS=5*/ 5, /*DC=*/ 17, /*RST=*/ 16, /*BUSY=*/ 4));
 
 void drawCentreString(const String &buf, int x, int y) {

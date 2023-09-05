@@ -1,7 +1,11 @@
 #include <GxEPD2_3C.h>
 #include <Fonts/FreeMonoBold9pt7b.h>
 
+// Demo code for 2.9" epaper display
 // libraries needed: GxEPD2, and probably also Adafruit_GFX
+
+// To draw on the display, you can use all drawing functions from the Adafruit GFX library
+// https://learn.adafruit.com/adafruit-gfx-graphics-library/overview
 
 GxEPD2_3C<GxEPD2_290_C90c, GxEPD2_290_C90c::HEIGHT> display(GxEPD2_290_C90c(/*CS=5*/ 5, /*DC=*/17, /*RST=*/16, /*BUSY=*/4));
 
