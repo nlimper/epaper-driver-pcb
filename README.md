@@ -1,3 +1,5 @@
+<img src="./schematic/pcb_display.jpeg" width="800">
+
 # epaper driver pcb
  e-paper driver PCB, schematic and example scripts for esp32
 
