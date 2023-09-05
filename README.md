@@ -29,6 +29,7 @@ How to connect:
 | GND    | GND   |
 
 To connect to other MCU's, find the right pins for SPI communications. 
+The CS2 pin connects to pin 1 of the display. Some larges displays use this pin as a slave chip select. Under normal circumstances you can leave this pin open.
 
 Note: this board is only compatible with 3.3V signals! Don't try to use 5V boards with it, as it will break things beyond repair. Also, don't connect the driver board without attached epaper display.
 
