@@ -12,7 +12,7 @@ The driver board is compatible with at least the Solum 2.9" and 1.54" displays. 
 
 The pcb is designed so you can almost make a straight connection to a ESP32 Lolin board. No other components are needed to make it work. On ESP32, you can use the GxEPD2 library or the Adafruit_EPD library to use the display. Examples for Arduino and PlatformIO are in this repository.
 
-Buy the ready make driver pcb on Tindie: https://www.tindie.com/products/electronics-by-nic/
+Buy the ready make driver pcb on Tindie: [https://www.tindie.com/products/electronics-by-nic/](https://www.tindie.com/stores/electronics-by-nic/)
 There, I also sell the compatible displays.
 
 How to connect:
