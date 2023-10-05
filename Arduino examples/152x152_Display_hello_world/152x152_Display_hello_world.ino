@@ -9,7 +9,7 @@
 #define EPD_SPI &SPI // primary SPI
 
 // 1.54" EPD 152x152
-Adafruit_IL0373 display(152, 152, EPD_DC, EPD_RESET, EPD_CS, SRAM_CS, EPD_BUSY, EPD_SPI);
+Adafruit_SSD1619 display(152, 152, EPD_DC, EPD_RESET, EPD_CS, SRAM_CS, EPD_BUSY, EPD_SPI);
 
 // You will need to install the Adafruit_EPD and Adafruit_GFX library to run this script.
 

@@ -13,10 +13,11 @@
 #define POWERPIN 22 // testjig has 3V3 of the driver pcb connected to pin 22 to be able to turn it on and off
 
 // 1.54" EPD 152x152
-Adafruit_IL0373 display(152, 152, EPD_DC, EPD_RESET, EPD_CS, SRAM_CS, EPD_BUSY, EPD_SPI);
+// Adafruit_IL0373 display(152, 152, EPD_DC, EPD_RESET, EPD_CS, SRAM_CS, EPD_BUSY, EPD_SPI);
+Adafruit_SSD1619 display(152, 152, EPD_DC, EPD_RESET, EPD_CS, SRAM_CS, EPD_BUSY, EPD_SPI);
 
 // or when you use custom SPI pins:
-// Adafruit_IL0373 display(int width, int height, int16_t SID, int16_t SCLK, int16_t DC, int16_t RST, int16_t CS, int16_t SRCS, int16_t MISO,	int16_t BUSY);
+// Adafruit_SSD1619 display(int width, int height, int16_t SID, int16_t SCLK, int16_t DC, int16_t RST, int16_t CS, int16_t SRCS, int16_t MISO,	int16_t BUSY);
 
 // You will need to install the Adafruit_EPD and Adafruit_GFX library to run this script.
 

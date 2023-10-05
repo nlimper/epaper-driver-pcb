@@ -10,7 +10,7 @@ This is a ready-to-go PCB to connect a bare epaper display (salvaged from a used
 ## What makes it special?
 The driver board is compatible with at least the Solum 2.9" and 1.54" displays. I didn't test any other displays or brands, but most displays are using the same pinouts and probably are usable.
 
-The pcb is designed so you can almost make a straight connection to a ESP32 Lolin board. No other components are needed to make it work. On ESP32, you can use the GxEPD2 library or the Adafruit_EPD library to use the display. Examples for Arduino and PlatformIO are in this repository.
+The pcb is designed so you can almost make a straight connection to a ESP32 Lolin board. No other components are needed to make it work. On ESP32, you can use the GxEPD2 library (2.9" 128x296 pixel display) or the Adafruit_EPD (Adafruit_SSD1619) library (1.54" 152x152 pixel display) to use the display. Examples for Arduino and PlatformIO are in this repository.
 
 Buy the ready make driver pcb on Tindie: https://www.tindie.com/stores/electronics-by-nic/
 There, I also sell the compatible displays.
